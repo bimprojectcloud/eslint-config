@@ -1,0 +1,13 @@
+### JetBrains
+.idea
+*.iml
+
+### Apple
+.DS_Store
+
+### Node.js
+node_modules
+
+### Project
+# Only apps should have lockfiles
+package-lock.json
