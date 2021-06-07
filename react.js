@@ -5,11 +5,9 @@ module.exports = {
     },
 
     extends: [
-        "airbnb-base",
-        "plugin:import/recommended",
-        "plugin:node/recommended",
+        "airbnb",
         ...[
-            "./rules/style",
+            "./index",
         ].map(require.resolve),
     ],
 

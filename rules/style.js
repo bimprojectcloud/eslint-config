@@ -1,6 +1,8 @@
 module.exports = {
     rules: {
 
+        "global-require": "warn",
+
         indent: [
             "error",
             4,
