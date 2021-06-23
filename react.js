@@ -1,16 +1,11 @@
 module.exports = {
 
-    env: {
-        jest: true,
-    },
-
     extends: [
         "airbnb",
-        ...[
-            "./index",
-        ].map(require.resolve),
+        "plugin:node/recommended",
+        "plugin:import/recommended",
+        "plugin:react/recommended",
+        require.resolve("./configs/common"),
     ],
-
-    parser: "babel-eslint",
 
 };

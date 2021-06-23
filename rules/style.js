@@ -1,7 +1,11 @@
 module.exports = {
+
     rules: {
 
-        "global-require": "warn",
+        "function-call-argument-newline": [
+            "error",
+            "consistent",
+        ],
 
         indent: [
             "error",
@@ -34,24 +38,11 @@ module.exports = {
             "double",
         ],
 
-        "sort-imports": [
-            "error",
-            {
-                allowSeparatedGroups: true,
-                ignoreCase: true,
-                memberSyntaxSortOrder: [
-                    "none",
-                    "single",
-                    "all",
-                    "multiple",
-                ],
-            },
-        ],
-
         "template-curly-spacing": [
             "error",
             "always",
         ],
 
     },
+
 };
