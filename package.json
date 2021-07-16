@@ -1,6 +1,6 @@
 {
   "name": "@bimproject/eslint-config",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "BIM Project's shared eslint config.",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,6 @@
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "devDependencies": {
-    "eslint": "7.29.0"
+    "eslint": "7.30.0"
   }
 }

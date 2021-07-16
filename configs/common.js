@@ -1,6 +1,7 @@
 module.exports = {
 
     extends: [
+        require.resolve("../rules/best-practices"),
         require.resolve("../rules/es6"),
         require.resolve("../rules/import"),
         require.resolve("../rules/node"),

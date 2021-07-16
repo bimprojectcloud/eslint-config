@@ -1,3 +1,7 @@
+# 3.1.0 / 2021-07-16
+
+- Disable `no-restricted-syntax`
+
 # 3.0.0 / 2021-06-23
 
 - Add `@typescript-eslint` peerDependencies
